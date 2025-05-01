@@ -1,76 +1,94 @@
-# 📘 Day 2 - C++ 學習筆記
+# 📘 Day 2 - C++ 條件判斷基礎與練習  
+**Day 2 - C++ Conditional Statements Basics and Practice**
 
 ---
 
-## 🎯 今日目標｜Today's Goal
-- 深入理解 C++ 語法與邏輯結構
-- 完成指定程式練習與英文句型應用
-- 養成良好程式撰寫與筆記整理習慣
+## 🎯 主題說明｜Lesson Goal  
+學習 `if`, `else if`, `else` 的語法，了解條件判斷在程式中的應用。  
+**Learn the structure of if-else statements and how to control program flow based on conditions.**
 
 ---
 
-## 🧠 概念導入｜Concept Analogy
-> （這裡可以根據主題補充，例如：陣列像是收納盒，迴圈像是機器人重複動作）
+## 🧠 概念導入｜Concept Analogy  
+把條件判斷想成「自動販賣機」選擇飲料的邏輯。  
+👉 如果投幣超過 30 元 ➔ 買罐裝咖啡  
+👉 如果投幣介於 10~30 元 ➔ 買瓶水  
+👉 如果投幣少於 10 元 ➔ 顯示「金額不足」
+
+> Conditional statements are like vending machines deciding what to give based on your coins.
 
 ---
 
-## 🔍 語法或資料結構範例｜Code Example
+## 🔍 語法範例｜Code Example
 
 ```cpp
-// 這裡是當日範例程式
 #include <iostream>
 using namespace std;
 
 int main() {
-    // 實作從這裡開始
+    int coins;
+    cout << "Enter the amount of coins: ";
+    cin >> coins;
+
+    if (coins >= 30)
+        cout << "You can buy a coffee." << endl;
+    else if (coins >= 10)
+        cout << "You can buy a bottle of water." << endl;
+    else
+        cout << "Not enough coins." << endl;
+
     return 0;
 }
 ```
 
-📌 重點說明：
-- 核心概念：xxx
-- 注意事項：xxx
+📌 語法說明：
+- `if (條件)`：當條件成立時執行
+- `else if (條件)`：另一個條件選項
+- `else`：以上都不符合時執行
 
 ---
 
-## ✍️ 練習任務｜Practice Tasks
+## ✍️ 實作任務｜Practice
 
-- [ ] 撰寫小範例程式
-- [ ] 嘗試加入錯誤處理
-- [ ] 延伸挑戰：優化程式結構
-
----
-
-## 🔊 技術英文練習｜Tech English Practice
-
-> This program takes input and processes the result.
-> 這個程式接收輸入並處理結果。
-
-> Functions make the code modular and reusable.
-> 函式讓程式模組化且可重複使用。
+1. 請撰寫一個程式，輸入一個人的年齡，輸出：
+   - 如果小於 13 歲 ➔ 「兒童」
+   - 如果 13 ~ 18 歲 ➔ 「青少年」
+   - 如果大於 18 歲 ➔ 「成年人」
 
 ---
 
-## 📖 小詞彙表｜Glossary
+## 🔊 技術英文句型｜Tech English Practice
+
+> The program checks the user's input and decides what message to print.  
+> 程式檢查使用者輸入並決定要印出什麼訊息。
+
+> If the condition is true, the corresponding block of code will execute.  
+> 如果條件為真，對應的程式區塊就會執行。
+
+---
+
+## 📖 詞彙對照表｜Glossary
 
 | 中文詞彙 | 英文詞彙 | 說明 |
 |----------|----------|------|
-| 變數     | variable | 用來儲存資料的容器 |
-| 函式     | function | 封裝一段重複邏輯的程式區塊 |
-| 迴圈     | loop     | 重複執行動作的結構 |
+| 條件     | condition | 判斷是否成立的基礎 |
+| 判斷     | decision  | 根據條件做選擇 |
+| 代幣     | coin      | 投入的金額單位 |
 
 ---
 
-## 🗂️ GitHub 任務｜GitHub Tasks
+## 🗂️ GitHub 任務（可選）
 
-- 更新練習程式與筆記
-- 撰寫 README 說明
-- 推送到 GitHub 倉庫
+- 建立資料夾：`cpp-learning/week01/Day02/`
+- 建立檔案：`age_check.cpp`
+- 加上註解與簡單英文說明
+- 撰寫 README.md 說明程式功能
 
 ---
 
-## 🎒 功課清單｜Homework Checklist
+## 🎒 Day 2 功課清單｜Homework
 
-- [ ] 完成當日練習程式
-- [ ] 撰寫當日學習筆記
-- [ ] 上傳到 GitHub 並更新狀態
+- [ ] 完成年齡判斷小程式
+- [ ] 程式加註解並上傳 GitHub
+- [ ] 用英文寫一句功能說明貼進 README
+- [ ] 抄寫並唸出技術英文句型 × 2
