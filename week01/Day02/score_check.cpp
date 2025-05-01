@@ -6,7 +6,7 @@ using namespace std;
 int main() {
 	int a=0;
 	
-	//不斷要求使用者輸入成績，直到a=-1 
+	//不斷要求使用者輸入成績，直到 a==-1 
 	while(true)
 	{
     cout<<"\n請輸入使用者的成績 :(輸入-1離開) "<<endl;
