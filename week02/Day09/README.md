@@ -1,105 +1,184 @@
-📘 Day 9 – 需求驗證與用戶訪談技巧 (Requirement Validation & User Interview Skills)
-🎯 主題說明 | Topic Introduction
-中文：
-需求驗證（Requirement Validation）是確保產品需求真實存在且有價值的過程，而用戶訪談（User Interview）則是直接與目標用戶對話，了解他們的需求、痛點與期望。本日課程將學習如何設計訪談、提出有效問題，以及驗證需求的真偽。
+\# 📘 Day 9 – 需求驗證與用戶訪談技巧 (Requirement Validation \& User Interview Skills)
 
-English:
-Requirement validation is the process of ensuring that product requirements are real and valuable, while user interviews involve direct conversations with target users to understand their needs, pain points, and expectations. Today’s lesson will cover how to design interviews, ask effective questions, and validate the authenticity of requirements.
 
-🧠 核心概念 | Core Concepts
-1. 需求驗證三步驟 | Three Steps for Requirement Validation
-定義假設（Define Hypotheses）
 
-假設誰是你的使用者
+---
 
-假設他們有什麼問題
 
-假設他們需要什麼解決方案
-English: Define who your users are, what problems they have, and what solutions they need.
 
-蒐集證據（Collect Evidence）
+\## 🎯 主題說明 | Topic Introduction
 
-用戶訪談
+\*\*中文：\*\*  
 
-問卷調查
+需求驗證是產品開發初期確保方向正確的關鍵步驟，用戶訪談則是收集真實需求的重要手段。本日課程將教你如何驗證需求的真偽與重要性，並掌握有效的訪談技巧。  
 
-數據分析
-English: Conduct user interviews, surveys, and data analysis.
 
-驗證與迭代（Validate & Iterate）
 
-驗證假設是否正確
+\*\*English:\*\*  
 
-修正或刪除不成立的需求
-English: Validate assumptions, adjust or discard invalid requirements.
+Requirement validation ensures you’re heading in the right direction during early product development. User interviews are a key method for gathering genuine needs. Today’s lesson covers how to validate requirements and conduct effective interviews.
 
-2. 用戶訪談的黃金原則 | Golden Rules for User Interviews
-多聽少說（Listen More, Talk Less）
 
-避免引導性問題（Avoid Leading Questions）
 
-聚焦於真實經驗（Focus on Real Experiences）
+---
 
-問「為什麼」至少三次（Ask “Why” Three Times）
 
-記錄完整原話（Record Exact Quotes）
 
-💬 常見訪談問題範例 | Sample Interview Questions
-中文：
+\## 🧠 核心概念 | Core Concepts
 
-最近一次使用這類產品的情境是什麼？
 
-在使用的過程中，有遇到什麼困難或不便嗎？
 
-如果能改進一件事，你最希望是什麼？
+\### 1. 為什麼要驗證需求？ | Why Validate Requirements?
 
-你通常用什麼方式解決這個問題？
+\- \*\*避免做錯產品\*\* (Avoid building the wrong product)  
 
-為什麼你會選擇這個產品而不是其他？
+\- \*\*確保資源有效利用\*\* (Ensure effective resource use)  
 
-English:
+\- \*\*提升用戶滿意度\*\* (Increase user satisfaction)  
 
-Can you describe the last time you used this type of product?
 
-What difficulties or inconveniences did you encounter while using it?
 
-If you could change one thing, what would it be?
+\### 2. 需求驗證方法 | Requirement Validation Methods
 
-How do you usually solve this problem?
+1\. \*\*市場調查\*\* (Market Research) – 分析產業趨勢與競品。  
 
-Why did you choose this product over others?
+2\. \*\*數據分析\*\* (Data Analysis) – 利用現有數據驗證假設。  
 
-✍ 實作任務 | Practice
-選擇一個目標用戶群，寫下你的需求假設（Who / What Problem / Solution）。
+3\. \*\*用戶訪談\*\* (User Interview) – 獲取第一手需求與痛點。  
 
-設計 5 個開放式訪談問題。
+4\. \*\*可用性測試\*\* (Usability Testing) – 測試產品雛形的可用性。  
 
-與至少 2 位用戶 進行訪談，並整理他們的回覆（可用 Notion 或 Excel）。
+5\. \*\*A/B 測試\*\* (A/B Testing) – 比較不同方案的用戶反應。  
 
-判斷你的需求假設是否成立，並記錄需要修正的地方。
 
-🗂 GitHub 任務 | GitHub Task
-在 PM-Notes repo 中建立 Day9_RequirementValidation.md
 
-上傳：
+\### 3. 用戶訪談技巧 | User Interview Tips
 
-需求假設文件
+\- \*\*開放式問題\*\* (Open-ended questions)  
 
-訪談問題清單
+&nbsp; 避免引導式提問，例如：「你覺得這個功能好用嗎？」  
 
-訪談紀錄與驗證結果
+&nbsp; 改成：「請描述你平常是怎麼解決這個問題的？」  
 
-📖 詞彙對照表 | Glossary
-中文	English	說明
-需求驗證	Requirement Validation	確保需求真實存在且有價值的過程
-用戶訪談	User Interview	與使用者溝通以收集需求與回饋
-假設	Hypothesis	對使用者或市場的推測，需要驗證
-引導性問題	Leading Question	暗示答案的問題類型
-開放式問題	Open-ended Question	允許受訪者自由表達的問題
+\- \*\*深挖細節\*\* (Dig deeper)  
 
-🎯 小結 Summary
-中文：
-需求驗證是確保你不會做出沒人想要的產品，而用戶訪談是最直接的驗證方法。記住：不要急著推銷你的想法，多聽用戶怎麼說。
+&nbsp; 追問「為什麼」與「能舉個例子嗎？」  
 
-English:
-Requirement validation ensures you don’t build something nobody wants, and user interviews are the most direct way to validate. Remember: Don’t rush to pitch your idea—listen to what users have to say.
+\- \*\*觀察行為\*\* (Observe behavior)  
+
+&nbsp; 不只聽答案，還要觀察用戶反應與表情。  
+
+\- \*\*做筆記或錄音\*\* (Take notes or record)  
+
+&nbsp; 事先徵求同意，確保資訊完整保留。  
+
+
+
+---
+
+
+
+\## 🔍 用戶訪談流程 | User Interview Process
+
+1\. \*\*確定目標\*\* (Define Objectives) – 你要知道你訪談的目的。  
+
+2\. \*\*篩選受訪者\*\* (Select Participants) – 鎖定目標族群。  
+
+3\. \*\*準備問題\*\* (Prepare Questions) – 按重要性排序。  
+
+4\. \*\*進行訪談\*\* (Conduct Interview) – 保持中立與耐心傾聽。  
+
+5\. \*\*整理與分析\*\* (Analyze Findings) – 萃取需求與洞察。  
+
+
+
+---
+
+
+
+\## ✍ 實作任務 | Practice
+
+1\. 選定一個產品構想，列出你的 \*\*需求假設\*\*（3 條）。  
+
+2\. 為每條假設設計 1~2 個開放式訪談問題。  
+
+3\. 選擇 3 位潛在用戶進行訪談（可線上或線下）。  
+
+4\. 整理訪談結果，判斷需求是否成立。  
+
+
+
+---
+
+
+
+\## 📖 詞彙對照表 | Glossary
+
+| 中文 | English | 說明 |
+
+| --- | --- | --- |
+
+| 需求驗證 | Requirement Validation | 確認需求真實性與價值的過程 |
+
+| 用戶訪談 | User Interview | 與目標用戶交流以收集需求的方法 |
+
+| 開放式問題 | Open-ended Question | 允許多元回答的問題 |
+
+| 可用性測試 | Usability Testing | 評估產品易用性的方法 |
+
+| A/B 測試 | A/B Testing | 比較兩種方案反應的實驗方法 |
+
+
+
+---
+
+
+
+\## 🗂 GitHub 任務 | GitHub Task
+
+\- 在 `PM-Notes` repo 中建立 `Day9\_Requirement\_Validation.md`  
+
+\- 上傳：
+
+&nbsp; - 需求假設
+
+&nbsp; - 訪談問題列表
+
+&nbsp; - 訪談整理報告
+
+
+
+---
+
+
+
+\## 🎒 功課清單 | Homework Checklist
+
+\- \[X] 完成 3 條需求假設  
+
+\- \[X] 設計開放式訪談問題  
+
+\- \[X] 至少完成 3 位目標用戶訪談  
+
+\- \[X] 整理需求驗證報告並上傳 GitHub  
+
+
+
+---
+
+
+
+\## 🎯 小結 Summary
+
+\*\*中文：\*\*  
+
+需求驗證能幫助你在開發前確保方向正確，用戶訪談則是獲取真實需求的高效方法。正確的問題設計與中立的訪談態度，能讓你獲得更有價值的洞察。  
+
+
+
+\*\*English:\*\*  
+
+Requirement validation ensures you’re on the right track before development. User interviews are a powerful way to uncover real needs. Asking the right questions and staying neutral will yield more valuable insights.
+
+
+
