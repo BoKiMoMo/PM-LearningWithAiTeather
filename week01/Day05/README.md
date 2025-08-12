@@ -1,76 +1,87 @@
-# 📘 Day 5 - C++ 學習筆記
+# 📘 DAY 5 – Wireframe 繪製基礎 (DAY 5 – Wireframe Basics)
 
 ---
 
-## 🎯 今日目標｜Today's Goal
-- 深入理解 C++ 語法與邏輯結構
-- 完成指定程式練習與英文句型應用
-- 養成良好程式撰寫與筆記整理習慣
+# 🎯 主題說明｜Topic Introduction
+
+**中文：**  
+Wireframe（線框圖）是產品設計的初步視覺藍圖，用於描述產品的頁面結構與功能布局。它專注於「資訊與功能位置」，而非最終的視覺設計。  
+在 PM 工作中，Wireframe 是與設計、工程溝通的重要工具，可以快速傳達功能概念，減少誤解。
+
+**English:**  
+A wireframe is an initial visual blueprint of a product, showing page structure and functional layout. It focuses on “information and feature placement” rather than final visual design.  
+In PM work, wireframes are an essential communication tool between design and engineering, allowing quick concept sharing and reducing misunderstandings.
 
 ---
 
-## 🧠 概念導入｜Concept Analogy
-> （這裡可以根據主題補充，例如：陣列像是收納盒，迴圈像是機器人重複動作）
+# 🧠 概念導入｜Concept Analogy
+
+**中文：**  
+你可以把 Wireframe 想像成房子的「建築藍圖」。它不會顯示牆面的顏色或家具的材質，但會清楚標出牆的位置、門的方向、房間的分區。
+
+**English:**  
+Think of a wireframe like a house’s “architectural blueprint.” It won’t show wall colors or furniture materials, but it clearly marks wall positions, door directions, and room divisions.
 
 ---
 
-## 🔍 語法或資料結構範例｜Code Example
+# 🔍 Wireframe 三個層次｜Three Levels of Wireframes
 
-```cpp
-// 這裡是當日範例程式
-#include <iostream>
-using namespace std;
+1. **低保真（Low-fidelity）** – 手繪草稿或簡單方塊，快速捕捉想法。  
+2. **中保真（Mid-fidelity）** – 使用工具（如 Figma、Balsamiq）呈現結構與互動細節。  
+3. **高保真（High-fidelity）** – 接近成品的精緻視覺設計，但保留修改空間。
 
-int main() {
-    // 實作從這裡開始
-    return 0;
-}
-```
-
-📌 重點說明：
-- 核心概念：xxx
-- 注意事項：xxx
+**English:**  
+1. **Low-fidelity** – Hand-drawn sketches or simple blocks to capture ideas quickly.  
+2. **Mid-fidelity** – Created with tools like Figma or Balsamiq, showing structure and interaction details.  
+3. **High-fidelity** – Near-final visuals but still allowing changes.
 
 ---
 
-## ✍️ 練習任務｜Practice Tasks
+# ✍ 實作任務｜Practice
 
-- [ ] 撰寫小範例程式
-- [ ] 嘗試加入錯誤處理
-- [ ] 延伸挑戰：優化程式結構
-
----
-
-## 🔊 技術英文練習｜Tech English Practice
-
-> This program takes input and processes the result.
-> 這個程式接收輸入並處理結果。
-
-> Functions make the code modular and reusable.
-> 函式讓程式模組化且可重複使用。
+1. **中文：** 選擇一個常用的 APP（如 LINE 聊天頁面），用紙筆畫出低保真 Wireframe，標註主要功能按鈕位置。  
+2. **English:** Choose an app you use often (e.g., LINE chat page) and sketch a low-fidelity wireframe on paper, marking key button positions.
 
 ---
 
-## 📖 小詞彙表｜Glossary
+# 🔊 技術英文句型｜Tech English Practice
 
-| 中文詞彙 | 英文詞彙 | 說明 |
-|----------|----------|------|
-| 變數     | variable | 用來儲存資料的容器 |
-| 函式     | function | 封裝一段重複邏輯的程式區塊 |
-| 迴圈     | loop     | 重複執行動作的結構 |
+- "The wireframe focuses on **layout** rather than **visual design**."  
+- "We use **low-fidelity wireframes** for quick concept validation."  
+- "This **mid-fidelity wireframe** includes basic **interaction flow**."
 
 ---
 
-## 🗂️ GitHub 任務｜GitHub Tasks
+# 📖 詞彙對照表｜Glossary
 
-- 更新練習程式與筆記
-- 撰寫 README 說明
-- 推送到 GitHub 倉庫
+| 中文 | English | 說明 |
+| --- | --- | --- |
+| 線框圖 | Wireframe | 產品頁面結構與功能布局的藍圖 |
+| 低保真 | Low-fidelity | 粗略草圖，快速呈現概念 |
+| 中保真 | Mid-fidelity | 結構明確，含互動細節 |
+| 高保真 | High-fidelity | 精細且接近成品的設計 |
+| 互動流程 | Interaction flow | 使用者與系統的操作過程 |
 
 ---
 
-## 🎒 功課清單｜Homework Checklist
+# 🗂 GitHub 任務｜GitHub Task
 
-- [ ] 完成當日練習程式
-- [ ] 撰寫當日學習筆記
-- [ ] 上傳到 GitHub 並更新狀態
+- 在 `PM-Notes` repo 中新增資料夾 `Wireframes`，上傳今日的 Wireframe 草圖（可拍照或截圖）。
+
+---
+
+# 🎒 功課清單｜Homework Checklist
+
+- [ ] 理解 Wireframe 的定義與用途  
+- [ ] 完成一份低保真 Wireframe 草稿  
+- [ ] 將 Wireframe 上傳至 GitHub
+
+---
+
+# 🎯 小結 Summary
+
+**中文：**  
+Wireframe 是 PM 與設計、工程的共通語言，可以快速傳達功能概念，並在開發前降低溝通成本。
+
+**English:**  
+Wireframes are the shared language between PM, design, and engineering, helping quickly communicate concepts and reduce communication costs before development.
