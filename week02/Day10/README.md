@@ -1,118 +1,63 @@
-📘 Day 10 – MVP 設計與驗證 (MVP Design & Validation) + C++ 陣列練習
-🎯 主題說明 | Topic Introduction
-中文：
-最小可行產品（Minimum Viable Product, MVP）是一種快速驗證產品假設的開發策略。它的核心目標是用最少的資源與功能，驗證市場需求與用戶反應，並為後續開發提供依據。
+# 📘 Day 10 – MVP 設計與驗證 + C++ 練習 (MVP Design & Validation + C++ Practice)
 
-English:
-A Minimum Viable Product (MVP) is a development strategy for quickly validating product hypotheses. Its main goal is to use minimal resources and features to test market demand and user response, providing data for future development.
+---
 
-🧠 核心概念 | Core Concepts
-1. 為什麼要做 MVP？ | Why Build an MVP?
-降低風險（Reduce Risk）
-減少一次投入過多資源導致失敗的風險。
+## 🎯 主題說明 | Topic Introduction
+**中文：**  
+最小可行產品（Minimum Viable Product, MVP）是一種用最小成本驗證產品假設的方法。MVP 並不是簡化版的產品，而是一個用於快速測試市場與需求的策略。本日課程將介紹 MVP 的設計原則、驗證方法，以及在開發早期如何進行迭代。同時，我們也會進行 C++ 小練習，強化邏輯思維。
 
-快速驗證（Validate Quickly）
-及早獲得用戶反饋，判斷方向是否正確。
+**English:**  
+The Minimum Viable Product (MVP) is a method to validate product assumptions with minimal cost. An MVP isn’t simply a “lite version” of your product—it’s a strategy to quickly test the market and demand. Today’s lesson covers MVP design principles, validation methods, and early iteration. We’ll also do a C++ mini exercise to strengthen logical thinking.
 
-節省成本（Save Cost）
-先做核心功能，避免浪費時間與金錢。
+---
 
-2. MVP 設計流程 | MVP Design Process
-定義核心價值（Define Core Value）
+## 🧠 核心概念 | Core Concepts
 
-用一句話說明產品要解決的問題。
+### 1. MVP 的定義 | What is an MVP?
+- **中文：** 具備最核心功能，用於測試假設並收集用戶反饋的產品版本。  
+- **English:** A product version with only the core features to test assumptions and gather user feedback.
 
-列出必要功能（List Essential Features）
+### 2. MVP 設計原則 | MVP Design Principles
+1. **單一核心價值** (Single Core Value) – 聚焦一個主要問題  
+2. **快速交付** (Fast Delivery) – 在最短時間內上線測試  
+3. **可衡量結果** (Measurable Results) – 能透過數據驗證假設  
+4. **低成本實現** (Low-cost Implementation) – 減少資源浪費  
 
-選擇能實現核心價值的最少功能。
+### 3. MVP 驗證方法 | MVP Validation Methods
+- **Landing Page** – 建立產品介紹頁測試註冊意願  
+- **Prototype Demo** – 用互動原型收集回饋  
+- **Concierge Test** – 人工模擬部分服務流程  
+- **A/B 測試** – 比較不同版本反應  
+- **Smoke Test** – 未完成產品前測試市場反應  
 
-選擇驗證方法（Choose Validation Method）
+---
 
-登陸頁（Landing Page）、假門（Fake Door）、互動原型（Interactive Prototype）、人工服務（Wizard of Oz）。
+## 🔍 MVP 與 PDLC 的關係
+**中文：** MVP 通常位於 PDLC 的早期階段，屬於「概念驗證」與「早期測試」，能有效降低後期開發風險。  
+**English:** MVP usually fits in the early stages of the PDLC, serving as “concept validation” and “early testing,” reducing late-stage development risks.
 
-收集反饋（Collect Feedback）
+---
 
-用戶訪談、數據分析、問卷調查。
+## ✍ C++ 練習 | C++ Practice
+**題目：**  
+請用 C++ 撰寫一個簡單的問卷系統，輸入多位使用者對產品的滿意度（1~5 分），並計算平均分數。
 
-迭代優化（Iterate & Improve）
-
-根據數據結果優化功能與體驗。
-
-🔍 常見 MVP 類型 | Common MVP Types
-類型	說明	範例
-登陸頁 MVP	用一個頁面測試用戶是否有興趣	Dropbox 早期介紹影片
-假門 MVP	提供功能入口，但尚未實作	Google Docs 新功能按鈕
-互動原型	用設計工具模擬功能	Figma、InVision 原型
-Wizard of Oz	前端看似自動化，實際人工處理	Zappos 早期賣鞋模式
-
-✍ 實作任務 | Practice
-選擇一個你的產品構想，寫下它的 核心價值描述（一句話）。
-
-列出 3 個必要功能，並標記優先級（P1、P2、P3）。
-
-選擇一種 MVP 形式（如登陸頁、假門等）。
-
-設計一份 MVP 驗證計畫（包含目標、驗證方法、成功指標）。
-
-🗂 GitHub 任務 | GitHub Task
-在 PM-Notes repo 中建立 Day10_MVP.md
-
-上傳：
-
-核心價值描述
-
-功能優先級表
-
-MVP 驗證計畫
-
-📖 詞彙對照表 | Glossary
-中文	English	說明
-最小可行產品	Minimum Viable Product (MVP)	最小成本驗證假設的產品
-核心價值	Core Value	產品的核心解決方案
-假門	Fake Door	提供入口但功能尚未實作
-登陸頁	Landing Page	用來收集用戶興趣的單頁網站
-成功指標	Success Metric	判斷驗證結果的量化標準
-
-💻 C++ 陣列練習 | C++ Array Practice
-題目：
-建立一個整數陣列，輸入 5 個分數，計算並輸出：
-
-平均分數
-
-最高分
-
-最低分
-
-程式碼範例：
-
-cpp
-複製程式碼
+```cpp
 #include <iostream>
 using namespace std;
 
 int main() {
-    int scores[5];
-    int sum = 0;
-    int maxScore = -1;
-    int minScore = 101;
+    int n, score, sum = 0;
+    cout << "請輸入受訪人數: ";
+    cin >> n;
 
-    cout << "請輸入 5 個分數：" << endl;
-    for (int i = 0; i < 5; i++) {
-        cin >> scores[i];
-        sum += scores[i];
-        if (scores[i] > maxScore) maxScore = scores[i];
-        if (scores[i] < minScore) minScore = scores[i];
+    for (int i = 1; i <= n; i++) {
+        cout << "輸入第 " << i << " 位的評分 (1-5): ";
+        cin >> score;
+        sum += score;
     }
 
-    cout << "平均分數: " << sum / 5.0 << endl;
-    cout << "最高分: " << maxScore << endl;
-    cout << "最低分: " << minScore << endl;
-
+    double avg = (double)sum / n;
+    cout << "平均滿意度為: " << avg << endl;
     return 0;
 }
-🎯 小結 Summary
-中文：
-MVP 是用最少的功能快速驗證市場需求的重要策略，避免浪費時間與資源。同時，C++ 陣列的應用能幫助我們在程式中管理資料並做簡單分析。
-
-English:
-An MVP is a key strategy to quickly validate market demand with minimal features, avoiding wasted time and resources. Meanwhile, C++ arrays help manage and analyze data efficiently.
