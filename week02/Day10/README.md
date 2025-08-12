@@ -61,3 +61,41 @@ int main() {
     cout << "平均滿意度為: " << avg << endl;
     return 0;
 }
+
+---
+
+## 📖 詞彙對照表 | Glossary
+| 中文 | English | 說明 |
+| --- | --- | --- |
+| 最小可行產品 | Minimum Viable Product (MVP) | 驗證產品假設的最小功能集合 |
+| 登陸頁 | Landing Page | 測試市場反應的單頁網站 |
+| 原型 | Prototype | 模擬產品外觀與功能的版本 |
+| 管家測試 | Concierge Test | 以人工方式模擬部分服務 |
+| 冒煙測試 | Smoke Test | 在產品未完成前測試市場意願 |
+
+---
+
+## 🗂 GitHub 任務 | GitHub Task
+- 在 `PM-Notes` repo 建立 `Day10_MVP_Design.md`
+- 上傳：
+  - MVP 概念描述
+  - 驗證方法計畫
+  - C++ 練習程式碼
+
+---
+
+## 🎒 功課清單 | Homework Checklist
+- [ ] 撰寫 MVP 概念說明  
+- [ ] 規劃至少兩種驗證方法  
+- [ ] 完成 C++ 問卷系統  
+- [ ] 上傳所有檔案至 GitHub  
+
+---
+
+## 🎯 小結 Summary
+**中文：**  
+MVP 是一種快速驗證假設的方法，能讓團隊用最小成本獲取真實市場回饋。C++ 練習能幫助自動化數據收集，提高測試效率。  
+
+**English:**  
+MVP is a quick validation method that lets teams gain real market feedback with minimal cost. The C++ practice helps automate data collection and improve testing efficiency.
+
