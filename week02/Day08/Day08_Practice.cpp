@@ -1,9 +1,24 @@
-// Day08 - C++ ç·´ç¿’ç¯„ä¾‹
-
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
-    // å¯¦ä½œå¾žé€™è£¡é–‹å§‹
+    int n;
+    cout << "¿é¤J¤H¼Æ¡G";
+    cin >> n;
+    cin.ignore(); // ²M°£´«¦æ²Å
+
+    string participants[n];
+    for (int i = 0; i < n; i++) {
+        cout << i + 1 << ". ";
+        getline(cin, participants[i]);
+    }
+
+    cout << "\n·|Ä³°Ñ»PªÌ¡G" << endl;
+    for (int i = 0; i < n; i++) {
+        cout << i + 1 << ". " << participants[i] << endl;
+    }
     return 0;
 }
+
+
