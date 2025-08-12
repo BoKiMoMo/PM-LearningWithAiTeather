@@ -1,76 +1,105 @@
-# 📘 Day 9 - C++ 學習筆記
+📘 Day 9 – 需求驗證與用戶訪談技巧 (Requirement Validation & User Interview Skills)
+🎯 主題說明 | Topic Introduction
+中文：
+需求驗證（Requirement Validation）是確保產品需求真實存在且有價值的過程，而用戶訪談（User Interview）則是直接與目標用戶對話，了解他們的需求、痛點與期望。本日課程將學習如何設計訪談、提出有效問題，以及驗證需求的真偽。
 
----
+English:
+Requirement validation is the process of ensuring that product requirements are real and valuable, while user interviews involve direct conversations with target users to understand their needs, pain points, and expectations. Today’s lesson will cover how to design interviews, ask effective questions, and validate the authenticity of requirements.
 
-## 🎯 今日目標｜Today's Goal
-- 深入理解 C++ 語法與邏輯結構
-- 完成指定程式練習與英文句型應用
-- 養成良好程式撰寫與筆記整理習慣
+🧠 核心概念 | Core Concepts
+1. 需求驗證三步驟 | Three Steps for Requirement Validation
+定義假設（Define Hypotheses）
 
----
+假設誰是你的使用者
 
-## 🧠 概念導入｜Concept Analogy
-> （這裡可以根據主題補充，例如：陣列像是收納盒，迴圈像是機器人重複動作）
+假設他們有什麼問題
 
----
+假設他們需要什麼解決方案
+English: Define who your users are, what problems they have, and what solutions they need.
 
-## 🔍 語法或資料結構範例｜Code Example
+蒐集證據（Collect Evidence）
 
-```cpp
-// 這裡是當日範例程式
-#include <iostream>
-using namespace std;
+用戶訪談
 
-int main() {
-    // 實作從這裡開始
-    return 0;
-}
-```
+問卷調查
 
-📌 重點說明：
-- 核心概念：xxx
-- 注意事項：xxx
+數據分析
+English: Conduct user interviews, surveys, and data analysis.
 
----
+驗證與迭代（Validate & Iterate）
 
-## ✍️ 練習任務｜Practice Tasks
+驗證假設是否正確
 
-- [ ] 撰寫小範例程式
-- [ ] 嘗試加入錯誤處理
-- [ ] 延伸挑戰：優化程式結構
+修正或刪除不成立的需求
+English: Validate assumptions, adjust or discard invalid requirements.
 
----
+2. 用戶訪談的黃金原則 | Golden Rules for User Interviews
+多聽少說（Listen More, Talk Less）
 
-## 🔊 技術英文練習｜Tech English Practice
+避免引導性問題（Avoid Leading Questions）
 
-> This program takes input and processes the result.
-> 這個程式接收輸入並處理結果。
+聚焦於真實經驗（Focus on Real Experiences）
 
-> Functions make the code modular and reusable.
-> 函式讓程式模組化且可重複使用。
+問「為什麼」至少三次（Ask “Why” Three Times）
 
----
+記錄完整原話（Record Exact Quotes）
 
-## 📖 小詞彙表｜Glossary
+💬 常見訪談問題範例 | Sample Interview Questions
+中文：
 
-| 中文詞彙 | 英文詞彙 | 說明 |
-|----------|----------|------|
-| 變數     | variable | 用來儲存資料的容器 |
-| 函式     | function | 封裝一段重複邏輯的程式區塊 |
-| 迴圈     | loop     | 重複執行動作的結構 |
+最近一次使用這類產品的情境是什麼？
 
----
+在使用的過程中，有遇到什麼困難或不便嗎？
 
-## 🗂️ GitHub 任務｜GitHub Tasks
+如果能改進一件事，你最希望是什麼？
 
-- 更新練習程式與筆記
-- 撰寫 README 說明
-- 推送到 GitHub 倉庫
+你通常用什麼方式解決這個問題？
 
----
+為什麼你會選擇這個產品而不是其他？
 
-## 🎒 功課清單｜Homework Checklist
+English:
 
-- [ ] 完成當日練習程式
-- [ ] 撰寫當日學習筆記
-- [ ] 上傳到 GitHub 並更新狀態
+Can you describe the last time you used this type of product?
+
+What difficulties or inconveniences did you encounter while using it?
+
+If you could change one thing, what would it be?
+
+How do you usually solve this problem?
+
+Why did you choose this product over others?
+
+✍ 實作任務 | Practice
+選擇一個目標用戶群，寫下你的需求假設（Who / What Problem / Solution）。
+
+設計 5 個開放式訪談問題。
+
+與至少 2 位用戶 進行訪談，並整理他們的回覆（可用 Notion 或 Excel）。
+
+判斷你的需求假設是否成立，並記錄需要修正的地方。
+
+🗂 GitHub 任務 | GitHub Task
+在 PM-Notes repo 中建立 Day9_RequirementValidation.md
+
+上傳：
+
+需求假設文件
+
+訪談問題清單
+
+訪談紀錄與驗證結果
+
+📖 詞彙對照表 | Glossary
+中文	English	說明
+需求驗證	Requirement Validation	確保需求真實存在且有價值的過程
+用戶訪談	User Interview	與使用者溝通以收集需求與回饋
+假設	Hypothesis	對使用者或市場的推測，需要驗證
+引導性問題	Leading Question	暗示答案的問題類型
+開放式問題	Open-ended Question	允許受訪者自由表達的問題
+
+🎯 小結 Summary
+中文：
+需求驗證是確保你不會做出沒人想要的產品，而用戶訪談是最直接的驗證方法。記住：不要急著推銷你的想法，多聽用戶怎麼說。
+
+English:
+Requirement validation ensures you don’t build something nobody wants, and user interviews are the most direct way to validate. Remember: Don’t rush to pitch your idea—listen to what users have to say.
