@@ -47,33 +47,6 @@ Think of PRD as the blueprint for building a house — it tells workers not just
 
 ---
 
-## 📄 範例｜Example PRD V1（AI Meeting Streaming Tool）  
-
-### 1. 產品簡介｜Product Overview  
-- 中文：AI Meeting Streaming Tool 幫助團隊在會議中即時轉錄與生成摘要，提高溝通效率。  
-- English: AI Meeting Streaming Tool helps teams transcribe and summarize meetings in real-time, improving communication efficiency.  
-
-### 2. 功能列表｜Feature List  
-- **語音轉文字** / Speech-to-Text  
-- **講者識別** / Speaker Identification  
-- **即時摘要生成** / Real-time Summary Generation  
-- **多平台整合** / Multi-platform Integration (Notion, Trello, Jira)  
-
-### 3. 使用情境｜User Scenario  
-> 中文：專案經理在每週例會中開啟系統，會議內容自動轉錄並標註講者，同時生成會議摘要並推送到專案管理工具。  
-> English: The project manager starts the system during the weekly meeting; the content is transcribed with speaker tags and summarized, then pushed to the project management tool.  
-
-### 4. 限制條件｜Constraints  
-- 技術：多麥克風硬體成本與環境噪音影響辨識率  
-- 時間：首版需在 3 個月內完成 MVP  
-- 法規：錄音需遵守個資與隱私相關法律  
-
-### 5. 成功指標｜Success Metrics  
-- 轉錄準確率達 90% 以上  
-- 每場會議摘要生成時間 < 1 分鐘  
-- 80% 用戶願意持續使用  
-
----
 
 ## ✍ 實作任務｜Practice  
 
