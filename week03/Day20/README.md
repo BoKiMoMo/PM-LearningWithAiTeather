@@ -1,76 +1,111 @@
-# 📘 Day 20 - C++ 學習筆記
+# 📘 DAY 20 – 作品集優化與簡歷設計
+(DAY 20 – Portfolio Optimization & Resume Design)
 
 ---
 
-## 🎯 今日目標｜Today's Goal
-- 深入理解 C++ 語法與邏輯結構
-- 完成指定程式練習與英文句型應用
-- 養成良好程式撰寫與筆記整理習慣
+## 🎯 主題說明｜Topic Introduction
+
+**中文：**
+今天的重點是將你過去的專案與技能整理成具有說服力的作品集與簡歷，讓招聘方在短時間內清楚你的價值與專業能力。
+
+**English:**
+Today’s focus is organizing your past projects and skills into a compelling portfolio and resume, allowing recruiters to quickly understand your value and expertise.
 
 ---
 
 ## 🧠 概念導入｜Concept Analogy
-> （這裡可以根據主題補充，例如：陣列像是收納盒，迴圈像是機器人重複動作）
+
+**中文：**
+作品集就像是「餐廳菜單」，簡歷是「餐廳廣告」。菜單要有吸引力且具體描述餐點（專案），廣告則要讓人想走進來（邀你面試）。
+
+**English:**
+A portfolio is like a “restaurant menu,” and a resume is the “restaurant ad.” The menu should be attractive and describe dishes (projects) clearly, while the ad should make people want to come in (invite you for an interview).
 
 ---
 
-## 🔍 語法或資料結構範例｜Code Example
+## 📂 作品集優化重點｜Portfolio Optimization Tips
 
-```cpp
-// 這裡是當日範例程式
-#include <iostream>
-using namespace std;
+**中文：**
+1. **專案精選**：挑選 3–5 個最能體現能力的專案。
+2. **角色與貢獻**：明確描述你在專案中的職責與影響力。
+3. **成果數據化**：用數據展示成效（如：提升轉化率 20%）。
+4. **流程展示**：呈現從需求到上線的完整過程。
+5. **視覺一致性**：排版、色彩、字體統一，讓作品集專業感提升。
 
-int main() {
-    // 實作從這裡開始
-    return 0;
-}
-```
-
-📌 重點說明：
-- 核心概念：xxx
-- 注意事項：xxx
-
----
-
-## ✍️ 練習任務｜Practice Tasks
-
-- [ ] 撰寫小範例程式
-- [ ] 嘗試加入錯誤處理
-- [ ] 延伸挑戰：優化程式結構
+**English:**
+1. **Project Selection** – Choose 3–5 projects that best showcase your abilities.
+2. **Role & Contribution** – Clearly state your responsibilities and impact.
+3. **Quantify Results** – Use numbers to demonstrate outcomes (e.g., improved conversion rate by 20%).
+4. **Show the Process** – Present the full journey from requirements to launch.
+5. **Visual Consistency** – Keep layout, colors, and fonts uniform for professionalism.
 
 ---
 
-## 🔊 技術英文練習｜Tech English Practice
+## 📄 簡歷設計重點｜Resume Design Tips
 
-> This program takes input and processes the result.
-> 這個程式接收輸入並處理結果。
+**中文：**
+1. **一頁原則**：控制在一頁，精簡且聚焦。
+2. **關鍵字優化**：使用職缺描述中的關鍵字，通過 ATS（Applicant Tracking System）。
+3. **行動動詞開頭**：如 Designed, Led, Implemented。
+4. **量化成果**：如「減少錯誤率 15%」、「縮短專案交付時間 30%」。
+5. **排版清晰**：使用標題、粗體、留白增加可讀性。
 
-> Functions make the code modular and reusable.
-> 函式讓程式模組化且可重複使用。
-
----
-
-## 📖 小詞彙表｜Glossary
-
-| 中文詞彙 | 英文詞彙 | 說明 |
-|----------|----------|------|
-| 變數     | variable | 用來儲存資料的容器 |
-| 函式     | function | 封裝一段重複邏輯的程式區塊 |
-| 迴圈     | loop     | 重複執行動作的結構 |
+**English:**
+1. **One-Page Rule** – Keep it to one page, concise and focused.
+2. **Keyword Optimization** – Use keywords from the job description to pass ATS.
+3. **Action Verbs** – Start bullet points with Designed, Led, Implemented.
+4. **Quantify Achievements** – e.g., “Reduced error rate by 15%,” “Shortened project delivery time by 30%.”
+5. **Clear Layout** – Use headings, bold text, and white space for readability.
 
 ---
 
-## 🗂️ GitHub 任務｜GitHub Tasks
+## ✍ 實作任務｜Practice
 
-- 更新練習程式與筆記
-- 撰寫 README 說明
-- 推送到 GitHub 倉庫
+1. **中文：** 選擇 3–5 個專案，依照「專案背景 → 你的角色 → 行動 → 成果」格式撰寫。
+2. **English:** Choose 3–5 projects and write them in the format “Project Background → Your Role → Actions → Results.”
+
+---
+
+## 🔊 技術英文句型｜Tech English Practice
+
+- "Led a cross-functional team to deliver **[project]**, achieving **[result]**."
+- "Implemented **[feature]**, resulting in **[quantifiable outcome]**."
+- "Collaborated with **[team/department]** to improve **[metric]** by **[percentage]**."
+
+---
+
+## 📖 詞彙對照表｜Glossary
+
+| 中文 | English | 說明 |
+| --- | --- | --- |
+| 作品集 | Portfolio | 展示專案與成果的文件或網站 |
+| 簡歷 | Resume | 濃縮個人經歷與技能的文檔 |
+| 關鍵字優化 | Keyword Optimization | 提升文件在自動篩選系統中的匹配度 |
+| ATS | Applicant Tracking System | 招聘方用來篩選簡歷的系統 |
+| 行動動詞 | Action Verb | 開頭用以表達行動與成果的動詞 |
+
+---
+
+## 🗂 GitHub 任務｜GitHub Task
+
+- 新增 `Portfolio` 資料夾，放置 PDF 與線上作品集連結。
+- 新增 `Resume` 資料夾，上傳簡歷 PDF。
 
 ---
 
 ## 🎒 功課清單｜Homework Checklist
 
-- [ ] 完成當日練習程式
-- [ ] 撰寫當日學習筆記
-- [ ] 上傳到 GitHub 並更新狀態
+- [ ] 精選並撰寫 3–5 個專案案例
+- [ ] 完成一頁式簡歷
+- [ ] 檢查關鍵字與數據化成果
+- [ ] 上傳作品集與簡歷至 GitHub
+
+---
+
+## 🎯 小結 Summary
+
+**中文：**
+一份專業的作品集與簡歷能大幅提升面試機會，重點是「精選案例」、「量化成果」、「視覺一致」。
+
+**English:**
+A professional portfolio and resume can significantly increase interview opportunities, focusing on “selected cases,” “quantified results,” and “visual consistency.”

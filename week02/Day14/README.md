@@ -1,76 +1,99 @@
-# 📘 Day 14 - C++ 學習筆記
+# 📘 DAY 14 – 提案演練與回饋收斂
+(DAY 14 – Proposal Pitch Practice & Feedback Integration)
 
 ---
 
-## 🎯 今日目標｜Today's Goal
-- 深入理解 C++ 語法與邏輯結構
-- 完成指定程式練習與英文句型應用
-- 養成良好程式撰寫與筆記整理習慣
+## 🎯 主題說明｜Topic Introduction
+
+**中文：**
+提案演練是產品經理將想法傳達給團隊或決策者的重要技能。今天將練習如何在模擬會議中進行產品簡報，並學會如何有效接收與整合回饋，優化提案內容。
+
+**English:**
+Pitch practice is a crucial skill for PMs to convey ideas to teams or decision-makers. Today we’ll practice delivering a product presentation in a simulated meeting and learn how to effectively receive and integrate feedback to improve proposals.
 
 ---
 
 ## 🧠 概念導入｜Concept Analogy
-> （這裡可以根據主題補充，例如：陣列像是收納盒，迴圈像是機器人重複動作）
+
+**中文：**
+提案演練就像彩排舞台劇，正式上場前先模擬觀眾反應，並根據觀眾的建議微調劇本與表演方式。
+
+**English:**
+Pitch practice is like rehearsing a stage play—you simulate the audience’s reactions before the official performance and fine-tune your script and delivery based on their suggestions.
 
 ---
 
-## 🔍 語法或資料結構範例｜Code Example
+## 🔍 演練流程｜Pitch Practice Flow
 
-```cpp
-// 這裡是當日範例程式
-#include <iostream>
-using namespace std;
+1. **準備簡報（Preparation）**
+   - 中文：確認簡報內容精簡有力，符合聽眾需求。
+   - English: Ensure the presentation is concise and relevant to the audience.
 
-int main() {
-    // 實作從這裡開始
-    return 0;
-}
-```
+2. **模擬演練（Simulation）**
+   - 中文：找同事或朋友充當聽眾，限制時間進行簡報。
+   - English: Have colleagues or friends act as the audience, present within a time limit.
 
-📌 重點說明：
-- 核心概念：xxx
-- 注意事項：xxx
+3. **回饋收集（Feedback Collection）**
+   - 中文：讓聽眾針對內容清晰度、邏輯與吸引力提出意見。
+   - English: Ask the audience for feedback on clarity, logic, and engagement.
 
----
+4. **回饋分析（Feedback Analysis）**
+   - 中文：整理回饋，分類為「立即改善」與「長期調整」。
+   - English: Organize feedback into “Immediate Fixes” and “Long-term Adjustments.”
 
-## ✍️ 練習任務｜Practice Tasks
-
-- [ ] 撰寫小範例程式
-- [ ] 嘗試加入錯誤處理
-- [ ] 延伸挑戰：優化程式結構
+5. **版本優化（Refinement）**
+   - 中文：針對核心問題優先修改簡報並再次演練。
+   - English: Update the presentation based on key issues and rehearse again.
 
 ---
 
-## 🔊 技術英文練習｜Tech English Practice
+## ✍ 實作任務｜Practice
 
-> This program takes input and processes the result.
-> 這個程式接收輸入並處理結果。
-
-> Functions make the code modular and reusable.
-> 函式讓程式模組化且可重複使用。
+1. **中文：** 使用昨天（Day 13）完成的簡報，進行一次 5 分鐘的模擬提案，並錄音錄影。
+2. **English:** Use the presentation from Day 13 to perform a 5-minute simulated pitch and record it.
 
 ---
 
-## 📖 小詞彙表｜Glossary
+## 🔊 技術英文句型｜Tech English Practice
 
-| 中文詞彙 | 英文詞彙 | 說明 |
-|----------|----------|------|
-| 變數     | variable | 用來儲存資料的容器 |
-| 函式     | function | 封裝一段重複邏輯的程式區塊 |
-| 迴圈     | loop     | 重複執行動作的結構 |
+- "Our goal today is to get alignment on **[product vision/feature]**."
+- "Based on your feedback, we have adjusted **[specific part]**."
+- "We believe these changes will improve **[metric/outcome]**."
 
 ---
 
-## 🗂️ GitHub 任務｜GitHub Tasks
+## 📖 詞彙對照表｜Glossary
 
-- 更新練習程式與筆記
-- 撰寫 README 說明
-- 推送到 GitHub 倉庫
+| 中文 | English | 說明 |
+| --- | --- | --- |
+| 提案演練 | Pitch Practice | 模擬進行產品簡報的過程 |
+| 回饋收斂 | Feedback Integration | 將意見整理並應用於提案改進 |
+| 模擬會議 | Mock Meeting | 非正式的演練場景 |
+| 精簡有力 | Concise & Impactful | 簡報內容短小但具說服力 |
+| 優化版本 | Refined Version | 改善後的提案版本 |
+
+---
+
+## 🗂 GitHub 任務｜GitHub Task
+
+- 將演練影片（或音檔）與回饋整理文件上傳至 `PM-Portfolio` Repo 的 `Day14` 資料夾。
 
 ---
 
 ## 🎒 功課清單｜Homework Checklist
 
-- [ ] 完成當日練習程式
-- [ ] 撰寫當日學習筆記
-- [ ] 上傳到 GitHub 並更新狀態
+- [ ] 完成一次 5 分鐘模擬提案
+- [ ] 收集至少 3 項具體回饋
+- [ ] 針對回饋進行版本優化
+- [ ] 將成果上傳 GitHub
+
+---
+
+## 🎯 小結 Summary
+
+**中文：**
+提案演練不只是練習口條，更是檢視提案邏輯與觀眾感受的機會。持續收斂回饋能讓提案更具說服力與影響力。
+
+**English:**
+Pitch practice is not just about delivery—it’s a chance to review your proposal’s logic and audience impact. Consistently integrating feedback makes proposals more persuasive and impactful.
+
