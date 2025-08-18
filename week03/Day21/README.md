@@ -1,76 +1,135 @@
-# 📘 Day 21 - C++ 學習筆記
+# 📘 DAY 21 – 模擬面試與錄音回顧 + C++ 小專案  
+*(DAY 21 – Mock Interview & Recording Review + C++ Mini Project)*
 
 ---
 
-## 🎯 今日目標｜Today's Goal
-- 深入理解 C++ 語法與邏輯結構
-- 完成指定程式練習與英文句型應用
-- 養成良好程式撰寫與筆記整理習慣
+## 🎯 主題說明 | Topic Introduction  
+
+**中文：**  
+今天的重點是進行 PM 模擬面試（Mock Interview），並透過錄音回顧檢視口語表達與邏輯結構。  
+技術面則安排一個小型 C++ 專案，整合前面學過的函式、陣列與流程控制。  
+
+**English:**  
+Today’s focus is a PM mock interview combined with recording review, to evaluate speaking skills and logical flow.  
+On the technical side, you will complete a small C++ project that integrates functions, arrays, and control flow.  
 
 ---
 
-## 🧠 概念導入｜Concept Analogy
-> （這裡可以根據主題補充，例如：陣列像是收納盒，迴圈像是機器人重複動作）
+## 🧠 概念導入 | Concept Analogy  
+
+**中文：**  
+模擬面試就像是「上場前的熱身賽」，錄音回顧能幫助你客觀檢視自己表達的弱點，並在真正面試前修正。  
+小型專案則是檢視你這段時間學習 C++ 的成果，能夠將知識轉化為一個可執行的作品。  
+
+**English:**  
+A mock interview is like a warm-up match before the real game. Recording review helps you objectively spot weaknesses in your speaking and logic.  
+The C++ mini project is your chance to transform learning into a working product, proving mastery of the basics.  
 
 ---
 
-## 🔍 語法或資料結構範例｜Code Example
+## 🔍 任務內容 | Task Breakdown  
 
-```cpp
-// 這裡是當日範例程式
-#include <iostream>
-using namespace std;
+### PM 模擬面試  
+1. 準備 **3 分鐘自我介紹**（含 PM 能力與專題介紹）。  
+2. 回答 **3 個常見 PM 面試問題**：  
+   - 為什麼想成為 PM？  
+   - 請分享一次與跨部門合作的經驗。  
+   - 如果開發時程落後，你會怎麼處理？  
+3. 錄音並回放，檢查語速、邏輯與重點是否清楚。  
 
-int main() {
-    // 實作從這裡開始
-    return 0;
-}
+### C++ 小專案  
+實作一個 **學生成績管理系統**，功能包括：  
+- 新增學生與分數  
+- 計算平均分數  
+- 找出最高分與最低分  
+- 使用陣列與函式分工  
+
+---
+
+## ✍ 實作任務 | Practice  
+
+1. **PM 模擬面試**  
+   - 寫下你的自我介紹逐字稿  
+   - 錄音，並在 Notion 記錄回顧心得  
+
+2. **C++ 小專案**  
+   ```cpp
+   #include <iostream>
+   using namespace std;
+
+   const int MAX = 100;
+
+   void addScore(int scores[], int &count, int score) {
+       scores[count++] = score;
+   }
+
+   double getAverage(int scores[], int count) {
+       double sum = 0;
+       for(int i = 0; i < count; i++) sum += scores[i];
+       return count > 0 ? sum / count : 0;
+   }
+
+   int getMax(int scores[], int count) {
+       int maxVal = scores[0];
+       for(int i = 1; i < count; i++) 
+           if(scores[i] > maxVal) maxVal = scores[i];
+       return maxVal;
+   }
+
+   int getMin(int scores[], int count) {
+       int minVal = scores[0];
+       for(int i = 1; i < count; i++) 
+           if(scores[i] < minVal) minVal = scores[i];
+       return minVal;
+   }
+
+   int main() {
+       int scores[MAX], count = 0;
+       addScore(scores, count, 85);
+       addScore(scores, count, 92);
+       addScore(scores, count, 76);
+
+       cout << "平均分數: " << getAverage(scores, count) << endl;
+       cout << "最高分: " << getMax(scores, count) << endl;
+       cout << "最低分: " << getMin(scores, count) << endl;
+       return 0;
+   }
 ```
+## 📖 詞彙對照表 | Glossary  
 
-📌 重點說明：
-- 核心概念：xxx
-- 注意事項：xxx
-
----
-
-## ✍️ 練習任務｜Practice Tasks
-
-- [ ] 撰寫小範例程式
-- [ ] 嘗試加入錯誤處理
-- [ ] 延伸挑戰：優化程式結構
+| 中文       | English            | 說明 |
+| ---------- | ------------------ | ---- |
+| 模擬面試   | Mock Interview     | 練習面試的模擬場景 |
+| 錄音回顧   | Recording Review   | 回放檢查自己的口語表達 |
+| 專案       | Project            | 用來驗證技能的實作成果 |
+| 陣列       | Array              | 存放多個元素的資料結構 |
+| 函式       | Function           | 可重複使用的程式模組 |
 
 ---
 
-## 🔊 技術英文練習｜Tech English Practice
+## 🗂 GitHub 任務 | GitHub Task  
 
-> This program takes input and processes the result.
-> 這個程式接收輸入並處理結果。
-
-> Functions make the code modular and reusable.
-> 函式讓程式模組化且可重複使用。
-
----
-
-## 📖 小詞彙表｜Glossary
-
-| 中文詞彙 | 英文詞彙 | 說明 |
-|----------|----------|------|
-| 變數     | variable | 用來儲存資料的容器 |
-| 函式     | function | 封裝一段重複邏輯的程式區塊 |
-| 迴圈     | loop     | 重複執行動作的結構 |
+- 建立一個新資料夾 `Day21-MockInterview-CPPProject`  
+- 上傳：  
+  - PM 模擬面試逐字稿（`interview_notes.md`）  
+  - 錄音回顧心得（`reflection.md`）  
+  - C++ 小專案程式碼（`student_scores.cpp`）  
 
 ---
 
-## 🗂️ GitHub 任務｜GitHub Tasks
+## 🎒 功課清單 | Homework Checklist  
 
-- 更新練習程式與筆記
-- 撰寫 README 說明
-- 推送到 GitHub 倉庫
+- [ ] 撰寫並錄製 PM 模擬面試逐字稿  
+- [ ] 完成錄音回顧與心得  
+- [ ] 實作並測試 C++ 小專案  
+- [ ] 上傳所有成果到 GitHub  
 
 ---
 
-## 🎒 功課清單｜Homework Checklist
+## 🎯 小結 Summary  
 
-- [ ] 完成當日練習程式
-- [ ] 撰寫當日學習筆記
-- [ ] 上傳到 GitHub 並更新狀態
+**中文：**  
+今天整合了 **PM 面試練習** 與 **C++ 小專案**，一方面訓練表達與邏輯，另一方面檢視技術實力。這能幫助你在未來面試時更具自信，也能在作品集上展示多元能力。  
+
+**English:**  
+Today combines **PM interview practice** with a **C++ mini project**. It trains communication and logical skills while validating your technical knowledge. This dual preparation boosts confidence for interviews and enriches your portfolio.  
